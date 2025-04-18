@@ -26,8 +26,8 @@ void linkedList::insertAtEnd(int x)
     }
   else
     {
-      tail -> next = temp;
-      tail = tail -> next;
+     temp -> next = head;
+    head = temp;
     }
   count++;  
 
