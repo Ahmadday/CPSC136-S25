@@ -16,6 +16,9 @@ class linkedList
   linkedList();
   void insertAtEnd(int x);
   void print() const;
+  void insertInFront(int x);
+  int search(int x) const;
+  
 
 
  private:
